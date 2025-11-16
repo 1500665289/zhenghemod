@@ -1,0 +1,53 @@
+﻿<FightSkills><List>
+	
+	<Skill Name="QTYL_DamageSkill_1">
+		<DisplayName>掌心雷</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Damage</Kind>
+		<Element>None</Element>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>0</CD>
+		<LingCost>100</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng4</CastAni>
+		<Value>1000</Value>
+		<TargetCamp>Enemy</TargetCamp>
+		
+		<Shape>Missile</Shape>
+		<SelectType>Target</SelectType>
+		<MissileEffect>26</MissileEffect>
+		<HitEffect>61</HitEffect>
+		<Missile>	<!--弹道数据，贝塞尔曲线的四个参数-->
+			<p1>0</p1>
+			<p2>0</p2>
+			<p3>0</p3>
+			<p4>0</p4>
+		</Missile>
+	</Skill>
+	
+	
+	
+	<Skill Name="QTYL_DamageSkill_2"><!--护体真强基础模板 --> 
+		<DisplayName>灵气护体</DisplayName>
+		<IsTemplate>0</IsTemplate>
+		<Kind>Sheild</Kind>
+		<ShowInUI>1</ShowInUI>
+		<SingTime>0</SingTime>
+		<CD>0</CD>
+		<LingCost>520</LingCost>
+		<SingAni>assemble</SingAni>
+		<CastAni>LJjineng10</CastAni>
+		<Value>1</Value>
+		<Value2>100</Value2>
+		<TargetCamp>Friendly</TargetCamp>
+		
+		<Shape>Single</Shape>
+		<SelectType>AllNpc</SelectType>
+		<HitEffect>63</HitEffect>
+	</Skill>
+	
+	
+	
+	
+</List></FightSkills>

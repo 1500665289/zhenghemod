@@ -1,0 +1,345 @@
+﻿<Esotericas><List>
+	
+	<Esoterica Name="QTYL_Esoterica_a0">
+		<DisplayName>明心真经</DisplayName>
+		<Hide>1</Hide>
+		<Icon>Spr\Ui\QTYL_7.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>提高对灵气的亲和度。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高灵气回复速度。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_a0</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="QTYL_Esoterica_a2">
+		<DisplayName>轻身决</DisplayName>
+		<Icon>Spr\Ui\QTYL_5.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>缩地成寸，以为神行。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Fabao</Type>
+		<EffectDesc>[size=10][color=#D06508]提高移动速度\n提高历练飞行速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_a2</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_a5">
+		<DisplayName>大荒诀</DisplayName>
+		<Icon>Spr\Ui\QTYL_13.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>提高修炼速度，提高法术回复速度。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]提高修炼速度\n提高法术回复速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b5</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_a8">
+		<DisplayName>开门</DisplayName>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_a8</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="Gong_QTYL_a10">
+		<DisplayName>三花聚顶</DisplayName>
+		<Icon>Spr\Ui\QTYL_11.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>消耗寿命换取短暂的能力提升。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：三花聚顶[/color][/size]</EffectDesc>
+		
+		<Magics>
+			<li>QTYL_DamageMagic_1</li>
+		</Magics>
+		
+	</Esoterica>
+	
+	
+	<Esoterica Name="QTYL_FightSkillEsoterica_1">
+		<DisplayName>掌心雷</DisplayName>
+		<Icon>Spr\Ui\QTYL_1.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>修行者的入门法术，将真气凝聚于掌心向目标发出即可。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]习得秘术：掌心雷[/color][/size]</EffectDesc>
+		<Skills>
+			<li>QTYL_DamageSkill_1</li>
+		</Skills>	
+	</Esoterica>
+	
+	
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_b0">
+		<DisplayName>如阳真经</DisplayName>
+		<Hide>1</Hide>
+		<Icon>Spr\Ui\QTYL_8.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>大幅度提高对灵气的亲和度。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅度提高法术威力\n大幅度提高灵气回复速度。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b0</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="QTYL_Esoterica_b2">
+		<DisplayName>呼风唤雨</DisplayName>
+		<Icon>res/Sprs/ui/icon_quyun01</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：驱云诀\n习得神通：暴雨术\n习得神通：甘霖术\n习得神通：焚风术\n习得神通：尘暴术\n习得神通：毒瘴术\n习得神通：雷暴术[/color][/size]</EffectDesc>
+		<Magics>
+			<li>PrayForSun</li>
+			<li>PrayForRainstorm</li>
+			<li>BuildRain</li>
+			<li>PrayForFohn</li>
+			<li>PrayForDustStorm</li>
+			<li>PrayForMiasma</li>
+			<li>PrayForLightningStorm</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_b4">
+		<DisplayName>淬体决</DisplayName>
+		<Icon>Spr\Ui\QTYL_9.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>初步炼体，增加寿命，提高修行速度。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]提高修炼速度\n提高五维\n增加寿命\n增加灵气护盾效果。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b4</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="QTYL_Esoterica_b6">
+		<DisplayName>清灵决</DisplayName>
+		<Icon>Spr\Ui\QTYL_15.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>提高灵气回复速度，提高灵气最大值。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]提高灵气回复速度\n提高灵气最大值\n习得秘术：灵气护体。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b6</Modifier>	
+		<Skills>
+			<li>QTYL_DamageSkill_2</li>
+		</Skills>
+	</Esoterica>
+	
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_b8">
+		<DisplayName>伤门</DisplayName>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b8</Modifier>	
+	</Esoterica>
+	
+	<Esoterica Name="QTYL_Esoterica_b10">
+		<DisplayName>御器术</DisplayName>
+		<Icon>Spr\Ui\QTYL_12.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>5</Difficulty>
+		<Desc>修习此法可全面提高御器能力。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]提高法宝威力\n提高法宝灵气恢复速度\n提高法宝灵气值\n提高法宝速度\n提高法宝转向速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_b10</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_c2">
+		<DisplayName>移山填海</DisplayName>
+		<Icon>res/Sprs/ui/icon_youcui01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc></Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：\n  造山术\n  开湖术\n  造陆术\n  造化灵土\n  造化灵池\n  造化沃土[/color][/size]</EffectDesc>
+		<Magics>
+			<li>BuildMine</li>
+			<li>BuildSea</li>
+			<li>BuildLand</li>
+			<li>BuildLing</li>
+			<li>BuildLingWater</li>
+			<li>BuildFertileSoil</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_c4">
+		<DisplayName>五脏锻元功</DisplayName>
+		<Icon>Spr\Ui\QTYL_6.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>炼体小成，增加寿命，提高修行速度。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]提高修炼速度\n提高五维\n增加寿命\n增加灵气护盾效果。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_c4</Modifier>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_c6">
+		<DisplayName>造化天经</DisplayName>
+		<Icon>Spr\Ui\QTYL_17.png</Icon>
+		<StarLevel>1</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>提高灵气回复速度，提高灵气最大值。</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高灵气回复速度\n大幅提高灵气最大值。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_c6</Modifier>
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_c8">
+		<DisplayName>景门</DisplayName>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>Skill</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_c8</Modifier>	
+	</Esoterica>
+	
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_d2">
+		<DisplayName>推演天机</DisplayName>
+		<Icon>res\Sprs\ui\icon_zhoutian01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<EffectDesc>[size=10][color=#D06508]习得神通：周天神算\n习得神通：大衍神算[/color][/size]</EffectDesc>
+		<Magics>
+			<li>Prophesy</li>
+			<li>Prophesy_MapStory</li>
+		</Magics>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_d4">
+		<DisplayName>大荒不灭体</DisplayName>
+		<Icon>Spr\Ui\QTYL_14.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>炼体大成，增加寿命，提高修行速度</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]提高修炼速度\n提高五维\n增加寿命\n增加灵气护盾效果。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_d4</Modifier>
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Esoterica_d6">
+		<DisplayName>大荒圣灵体</DisplayName>
+		<Icon>Spr\Ui\QTYL_15.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>提高灵气回复速度，提高灵气最大值</Desc>
+		<GLevel>Dan1</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]巨幅提高灵气回复速度\n巨幅提高灵气最大值。[/color][/size]</EffectDesc>
+		<Modifier>QTYL_Esoterica_d6</Modifier>
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Esotericas>

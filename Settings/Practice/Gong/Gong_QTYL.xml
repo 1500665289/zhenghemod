@@ -1,0 +1,670 @@
+﻿<Gongs><List>
+	<Gong Name="Gong_QTYL">  
+		<DisplayName>炁体源流</DisplayName>
+		<Desc>道之源头，炁体源流。</Desc>
+		<SelectDesc>修炼此功法需要惊人的毅力。是否要选择修习此功法？</SelectDesc>
+		<FiveBaseNeed>10,10,10,10,10</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>None</ElementKind>
+		<Skill> <!--chumo jiangdao guanding ciqi kaiguang cuiti bihu-->
+			<li>chumo</li>
+			<li>jiangdao</li>
+			<li>guanding</li>
+			<li>ciqi</li>
+			<li>kaiguang</li>
+			<li>cuiti</li>
+			<li>bihu</li>
+		</Skill>
+		<Hide>2</Hide>
+		<Stages>
+
+			<Stage Name="Stage1" Level="1">
+				<DisplayName>练气期</DisplayName>
+				<Desc></Desc>
+				<Value>600000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>练气壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+						
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>练气贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>练气叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>练气肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>2000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_2</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>练气伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+						
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>练气陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>练气柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>练气捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>5000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_2</AddModifier>
+						<Esoterocas>
+						<li>QTYL_Magic_1</li>
+						</Esoterocas>
+                    </Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>筑基期</DisplayName>
+				<Desc></Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>筑基壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+						
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>筑基贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>筑基叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>筑基肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>8000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_2</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>筑基伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>筑基陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>筑基柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Perception_1_1_10</SuccessChange>
+						<FailedChangeAdd>Perception_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_1</AddModifier>
+					</Neck>
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>筑基捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>12000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_2</AddModifier>
+                    </Neck>
+				</Necks>
+			</Stage>
+			
+            
+			<Stage Name="Stage2" Level="4">
+				<DisplayName>凝神期</DisplayName>
+				<Desc></Desc>
+				<Value>500000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>凝神壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>凝神贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>凝神叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>凝神肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>15000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_4</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>凝神伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>凝神陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+						
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>凝神柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>凝神捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>20000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_4</AddModifier>
+						<Esoterocas>
+						<li>QTYL_Magic_2</li>
+						</Esoterocas>
+                    </Neck>	
+				</Necks>
+			</Stage>
+			
+				
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>淬体期</DisplayName>
+				<Desc></Desc>
+				<Value>1000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>淬体壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>淬体贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>淬体叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>淬体肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>25000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_4</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>淬体伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>淬体陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>淬体柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_3</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>淬体捌阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage3" Level="7">
+				<DisplayName>洞穴期</DisplayName>
+				<Desc></Desc>
+				<Value>20000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>洞穴壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>洞穴贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>洞穴叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>洞穴肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>30000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_6</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>洞穴伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>洞穴陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>洞穴柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>洞穴捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>35000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_6</AddModifier>
+                    </Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>紫府期</DisplayName>
+				<Desc></Desc>
+				<Value>5000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>紫府壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>紫府贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>紫府叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>紫府肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>40000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_6</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>紫府伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>紫府陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>紫府柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_5</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>紫府捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>45000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_6</AddModifier>
+                    </Neck>
+				</Necks>
+			</Stage>
+			
+            <Stage Name="Stage4" Level="10">
+				<DisplayName>分神期</DisplayName>
+				<Desc></Desc>
+				<Value>8000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>分神壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>分神贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>分神叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>分神肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>50000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>分神伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>分神陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>分神柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>分神捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>55000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+                    </Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage4" Level="11">
+				<DisplayName>渡劫期</DisplayName>
+				<Desc></Desc>
+				<Value>160000000</Value>
+				<Necks>
+					<Neck Location="0.1" Kind="Chance">
+						<DisplayName>渡劫壹阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>渡劫贰阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>渡劫叁阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Thunder">   
+                        <DisplayName>渡劫肆阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>60000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+                    </Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>渡劫伍阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>渡劫陆阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>	
+					<Neck Location="0.85" Kind="Chance">
+						<DisplayName>渡劫柒阶</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<SuccessChange>Charisma_1_1_10</SuccessChange>
+						<FailedChangeAdd>Charisma_1_1_10</FailedChangeAdd>
+						<AddModifier>Gong_QTYL_7</AddModifier>
+					</Neck>	
+					<Neck Location="1" Kind="Thunder">   
+                        <DisplayName>渡劫捌阶</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>65000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+                    </Neck>
+				</Necks>
+			</Stage>
+
+			<Stage Name="Stage5" Level="12">
+				<DisplayName>羽化期</DisplayName>
+				<Desc></Desc>
+				<Value>3000000</Value>
+				<Necks>
+				     <Neck Location="0.1" Kind="Chance">
+						<DisplayName>雷劫九天</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>112000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+					</Neck>
+					<Neck Location="0.2" Kind="Chance">
+						<DisplayName>业火净身</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>246000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+					</Neck>
+					<Neck Location="0.3" Kind="Chance">
+						<DisplayName>天魔魅心</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>360000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+					</Neck>
+					<Neck Location="0.4" Kind="Chance">
+						<DisplayName>生死合体</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>380000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+					</Neck>
+					<Neck Location="0.55" Kind="Chance">
+						<DisplayName>斩尸炼魂</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>400000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+					</Neck>
+					<Neck Location="0.7" Kind="Chance">
+						<DisplayName>重塑金身</DisplayName>
+						<Desc></Desc>
+						<CostTime>100</CostTime>
+						<NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>420000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+						
+					</Neck>	
+					<Neck Location="0.85" Kind="Thunder">   
+                        <DisplayName>渡劫大成</DisplayName> 
+                        <Desc></Desc>
+                        <NeckCountdown>1800</NeckCountdown>    
+                        <ThunderValue>450000</ThunderValue>          
+                        <AddModifier>Gong_QTYL_8</AddModifier>
+						
+                    </Neck>
+				
+					<Neck Location="1" Kind="God">
+						<DisplayName>羽化飞升</DisplayName>
+						<Desc/>
+						<NeckCountdown>3000</NeckCountdown>
+						<!--<NeckCountdown>3000</NeckCountdown>-->
+						<ThunderValue>700000</ThunderValue>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+
+		</Stages>
+	</Gong>
+</List></Gongs>

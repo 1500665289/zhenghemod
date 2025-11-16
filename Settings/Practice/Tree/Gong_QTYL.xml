@@ -1,0 +1,592 @@
+﻿<SkillTree><List>	
+	
+	<Node Name="Gong_QTYL_a0" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_a0</Esoterica>
+		<DisplayName>明心真经</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a1" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>1</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_a2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_a2</Esoterica>
+		<DisplayName>轻身决</DisplayName>
+		<Level>Qi</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_QTYL_a2_1</li>
+		</Layers>
+		<PreUnit>
+			<!-- <li></li> -->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_a2_1" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_1</Esoterica>
+		<DisplayName>神行术</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	<Node Name="Gong_QTYL_a3" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_QTYL_a4" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,1,2,0</Line>	
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a5" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_a5</Esoterica>
+		<DisplayName>大荒经</DisplayName>
+		<Level>Qi</Level>
+		<Index>5</Index>
+		<Line>0,0,0,0,1,1,0,1</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_a6" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,2,1</Line>	
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a7" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a8" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_a8</Esoterica>
+		<DisplayName>开门</DisplayName>
+		<Level>Qi</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>Gong_QTYL_a8_2</li>
+			<li>Gong_QTYL_a8_3</li>
+		</Layers>
+		<PreUnit>
+			<!-- <li></li> -->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_a8_2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_2</Esoterica>
+		<DisplayName>休门</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a8_3" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_3</Esoterica>
+		<DisplayName>生门</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_a9" Gong="Gong_QTYL">
+		<Level>Qi</Level>
+		<Index>9</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>	
+	</Node>
+	
+	<Node Name="Gong_QTYL_a10" Gong="Gong_QTYL">
+		<Esoterica>Gong_QTYL_a10</Esoterica>
+		<DisplayName>三花聚顶</DisplayName>
+		<Level>Qi</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_a11" Gong="Gong_QTYL">
+		<Esoterica>QTYL_FightSkillEsoterica_1</Esoterica>
+		<DisplayName>掌心雷</DisplayName>
+		<Level>Qi</Level>
+		<Index>11</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_b0" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b0</Esoterica>
+		<DisplayName>如阳真经</DisplayName>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_a0</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li> -->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_b2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b2</Esoterica>
+		<DisplayName>呼风唤雨</DisplayName>
+		<Level>Dan1</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<!--	<li></li> -->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_b4" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b4</Esoterica>
+		<DisplayName>淬体决</DisplayName>
+		<Level>Dan1</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_a5</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_b6" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b6</Esoterica>
+		<DisplayName>清灵决</DisplayName>
+		<Level>Dan1</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_a5</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_b8" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b8</Esoterica>
+		<DisplayName>伤门</DisplayName>
+		<Level>Dan1</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<Layers>
+			<li>Gong_QTYL_b8_1</li>
+		</Layers>
+		<PreUnit>
+			<li>Gong_QTYL_a8_3</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_b8_1" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_4</Esoterica>
+		<DisplayName>杜门</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	
+	<Node Name="Gong_QTYL_b10" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_b10</Esoterica>
+		<DisplayName>御器术</DisplayName>
+		<Level>Dan1</Level>
+		<Index>10</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<!-- <li></li> -->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_c2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_c2</Esoterica>
+		<DisplayName>移山填海</DisplayName>
+		<Level>Dan2</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_b2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_c4" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_c4</Esoterica>
+		<DisplayName>五脏锻元功</DisplayName>
+		<Level>Dan2</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_b4</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_c6" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_c6</Esoterica>
+		<DisplayName>造化天经</DisplayName>
+		<Level>Dan2</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,1,0,2,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_b6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_c8" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_c8</Esoterica>
+		<DisplayName>景门</DisplayName>
+		<Level>Dan2</Level>
+		<Index>8</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<Layers>
+			<li>Gong_QTYL_c8_1</li>
+			<li>Gong_QTYL_c8_2</li>
+		</Layers>
+		<PreUnit>
+			 <li>Gong_QTYL_b8_1</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_c8_1" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_5</Esoterica>
+		<DisplayName>死门</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_c8_2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_LvUpEsoterica_6</Esoterica>
+		<DisplayName>惊门</DisplayName>
+		<Level>None</Level>
+	</Node>
+	
+	
+	
+	
+	<Node Name="Gong_QTYL_d2" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_d2</Esoterica>
+		<DisplayName>推演天机</DisplayName>
+		<Level>God</Level>
+		<Index>2</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_c2</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_d4" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_d4</Esoterica>
+		<DisplayName>大荒不灭体</DisplayName>
+		<Level>God</Level>
+		<Index>4</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_c4</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	<Node Name="Gong_QTYL_d6" Gong="Gong_QTYL">
+		<Esoterica>QTYL_Esoterica_d6</Esoterica>
+		<DisplayName>大荒圣灵体</DisplayName>
+		<Level>God</Level>
+		<Index>6</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+			<li>Gong_QTYL_c6</li>
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<!--<li Name="" Level="1"/>-->
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	<Node Name="Gong_QTYL_e4" Gong="Gong_QTYL">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>天道神丹</DisplayName>
+		<Level>God2</Level>
+		<Index>3</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	<Node Name="Gong_QTYL_e8" Gong="Gong_QTYL">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>天道神器</DisplayName>
+		<Level>God2</Level>
+		<Index>7</Index>
+		<Line>0,0,0,0,0,0,0,0</Line>
+		<PreUnit>
+		<!--	<li></li>-->
+		</PreUnit>
+		<MutexUnit>
+		<!--	<li></li>-->
+		</MutexUnit>
+		<FiveBase>0,0,0,0,0</FiveBase>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+		<LingMax>0</LingMax>
+		<GoldLevel>0</GoldLevel>
+		<GodCount>0</GodCount>
+	</Node>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></SkillTree> 

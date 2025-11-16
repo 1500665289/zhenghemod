@@ -1,0 +1,68 @@
+﻿<Esotericas><List>
+	
+	<Esoterica Name="QTYL_Magic_1">
+		<DisplayName>炼制灵石</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res\Sprs\ui\icon_lingjshi01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将灵气凝结为灵石</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：炼制灵石[/color][/size]</EffectDesc>
+		
+		<Magics>
+			<li>LingStoneMake</li>
+                                                <li>SoulCrystalYouPowerUp</li>
+		</Magics>
+		
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_Magic_2">
+		<DisplayName>炼制灵晶</DisplayName>
+		<Hide>2</Hide>
+		<Icon>res\Sprs\ui\icon_lingjing01</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>0</Difficulty>
+		<Desc>将灵气凝结为灵晶</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：炼制灵晶[/color][/size]</EffectDesc>
+		
+		<Magics>
+			<li>LingCrystalMake</li>
+		</Magics>
+		
+	</Esoterica>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Esotericas>

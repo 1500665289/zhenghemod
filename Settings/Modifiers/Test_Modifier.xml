@@ -1,0 +1,53 @@
+﻿<ModifierDefs><List>
+	<Modifier Name="Dan_YaoDan" Type="Normal"><!-- 聚灵速度提升huo-->
+		<DisplayName>妖丹</DisplayName>
+		<Desc>低级妖兽的内丹，聚灵效果略微提升。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_YaoDan1" Type="Normal"><!-- 加灵力 shui-->
+		<DisplayName>妖丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="100"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_YaoDan2" Type="Normal"><!-- 加寿命 tu-->
+		<DisplayName>妖丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="100"/>
+		</Properties>
+	</Modifier> 
+		<Modifier Name="Dan_YaoDan3" Type="Normal"><!-- 回复速度mu -->
+		<DisplayName>妖丹</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="RecoveryPower" AddP="1"/>
+		</Properties>
+	</Modifier> 
+			<Modifier Name="Dan_YaoDan4" Type="Normal"><!-- 提高突破概率jin -->
+		<DisplayName>妖丹</DisplayName>
+		<Desc>提高瓶颈突破概率</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>1200</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="1"/>
+		</Properties>
+	</Modifier> 
+	
+</List></ModifierDefs>

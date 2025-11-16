@@ -1,0 +1,48 @@
+﻿<Magics><List>
+	
+	
+	
+	
+	
+	
+	<Magic Name="QTYL_DamageMagic_1">
+		<DisplayName>三花聚顶</DisplayName>
+		<Desc>消耗十年寿命，短时间提高自身能力且恢复灵气值。</Desc>
+		<Icon>Spr\Ui\QTYL_11.png</Icon>
+		<Param1>0</Param1><!--施法时间-->
+		<CostAge>10</CostAge>
+		<EnableFlag>FLAG_AbsorbGong_9</EnableFlag>
+		<CMD>AbsorbGong_9</CMD>
+	</Magic>
+	
+	<Magic Name="SoulCrystalYouPowerUp">
+		<DisplayName>幽淬之法</DisplayName>
+		<Desc>对一个物品使用，消耗幽珀一个，有几率提高物品阶级1阶。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Param1>0</Param1><!--所需时间-->
+		<CostLing>30000</CostLing>
+		<CMD>SoulCrystalYouPowerUp</CMD>
+		<SelectType>SoulCrystalYouPowerUp</SelectType>
+	</Magic>
+	
+	<Magic Name="LingStoneMake">
+		<DisplayName>炼制灵石</DisplayName>
+		<Desc>将灵气凝结为灵石。</Desc>
+		<Icon>res\Sprs\ui\icon_lingjshi01</Icon>
+		<Param1>0</Param1><!--施法时间-->
+		<CostLing>500</CostLing>
+		<CostAge>0</CostAge>
+		<CMD>AbsorbGong_11</CMD>
+	</Magic>
+
+	<Magic Name="LingCrystalMake">
+		<DisplayName>炼制灵晶</DisplayName>
+		<Icon>res\Sprs\ui\icon_lingjing01</Icon>
+		<Desc>将灵气凝结为灵晶。</Desc>
+		<Param1>0</Param1><!--施法时间-->
+		<CostLing>20000</CostLing>
+		<CostAge>0</CostAge>
+		<CMD>AbsorbGong_12</CMD>
+	</Magic>
+		
+</List></Magics>

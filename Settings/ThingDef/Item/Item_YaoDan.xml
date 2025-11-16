@@ -1,0 +1,263 @@
+﻿<ThingDefs><List>	
+	<ThingDef Type="Item" Name="Item_MuYaoDan">	
+		<ThingName>妖丹</ThingName>
+		<TexPath>Spr\Object\object_muyd.png</TexPath>	
+		<Desc>妖兽的内丹，伤势恢复速度略微提升。</Desc>
+		<MaxStack>999</MaxStack>
+		<Beauty>6</Beauty>
+		<Rate>5</Rate>
+		<ElementKind>Mu</ElementKind>
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		<Light> <!-- 发光 -->
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>	
+		<Item Lable="Other">	
+			<FabaoSuffix>丹,丸,球,珠</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_YaoDan3</Modifier>
+			</Elixir>
+<Food> <!-- 食用效果 -->
+			<EatDirectable>1</EatDirectable> <!-- 是否可以直接食用 -->
+			<Nutrition>0</Nutrition>
+			<PracticeNutrition>150</PracticeNutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+			</Food>	
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+	<ThingDef Type="Item" Name="Item_JiYaoDan">	
+		<ThingName>妖丹</ThingName>
+		<TexPath>Spr\Object\object_jinyd.png</TexPath>	
+		<Desc>妖兽的内丹，一定时间提高突破概率。</Desc>
+		<MaxStack>999</MaxStack>
+		<Beauty>6</Beauty>
+		<Rate>5</Rate>
+		<ElementKind>Jin</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		<Light> <!-- 发光 -->
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>	
+		<Item Lable="Other">	
+			<FabaoSuffix>丹,丸,球,珠</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<Elixir>
+
+				<Modifier>Dan_YaoDan4</Modifier>
+
+			</Elixir>
+<Food> <!-- 食用效果 -->
+			<EatDirectable>1</EatDirectable> <!-- 是否可以直接食用 -->
+			<Nutrition>0</Nutrition>
+			<PracticeNutrition>150</PracticeNutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+		</Food>	
+		<Elixir>
+			
+			<Ling>1000</Ling>
+		</Elixir>
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+	<ThingDef Type="Item" Name="Item_ShuiYaoDan">	
+		<ThingName>妖丹</ThingName>
+		<TexPath>Spr\Object\object_shuiyd.png</TexPath>	
+		<Desc>妖兽的内丹，略微增加灵气上限。</Desc>
+		<MaxStack>999</MaxStack>
+		<Beauty>6</Beauty>
+		<Rate>5</Rate>
+		<ElementKind>Shui</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		<Light> <!-- 发光 -->
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>	
+		<Item Lable="Other">	
+			<FabaoSuffix>丹,丸,球,珠</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<Elixir>
+
+				<Modifier>Dan_YaoDan1</Modifier>
+
+			</Elixir>
+<Food> <!-- 食用效果 -->
+			<EatDirectable>1</EatDirectable> <!-- 是否可以直接食用 -->
+			<Nutrition>0</Nutrition>
+			<PracticeNutrition>150</PracticeNutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+		</Food>	
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+	<ThingDef Type="Item" Name="Item_HuoYaoDan">	
+		<ThingName>妖丹</ThingName>
+		<TexPath>Spr\Object\object_huoyd.png</TexPath>	
+		<Desc>妖兽的内丹，提升聚灵效果。</Desc>
+		<MaxStack>999</MaxStack>
+		<Beauty>6</Beauty>
+		<Rate>5</Rate>
+		<ElementKind>Huo</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		<Light> <!-- 发光 -->
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>	
+		<Item Lable="Other">	
+			<FabaoSuffix>丹,丸,球,珠</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<Elixir>
+
+				<Modifier>Dan_YaoDan</Modifier>
+
+			</Elixir>
+<Food> <!-- 食用效果 -->
+			<EatDirectable>1</EatDirectable> <!-- 是否可以直接食用 -->
+			<Nutrition>0</Nutrition>
+			<PracticeNutrition>150</PracticeNutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+		</Food>	
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+	<ThingDef Type="Item" Name="Item_TuYaoDan">	
+		<ThingName>妖丹</ThingName>
+		<TexPath>Spr\Object\object_tuyd.png</TexPath>	
+		<Desc>妖兽的内丹，略微增加寿命。</Desc>
+		<MaxStack>999</MaxStack>
+		<Beauty>6</Beauty>
+		<Rate>5</Rate>
+		<ElementKind>Tu</ElementKind>
+		
+		<Flammability>
+			<Flammability>0.6</Flammability>
+			<FlameSpawnThingDef></FlameSpawnThingDef>
+			<FlameSpawnChance>0</FlameSpawnChance>
+			<BurningPoint>120</BurningPoint>
+		</Flammability>
+		<Light> <!-- 发光 -->
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>0</FailRadius>
+		<Radius>1</Radius>
+		<Color>62F8FFFF</Color>
+	</Light>	
+		<Item Lable="Other">	
+			<FabaoSuffix>丹,丸,球,珠</FabaoSuffix>
+			<PhysicalLables>
+				<li>Light1</li>
+				<li>Soft1</li>
+			</PhysicalLables>
+			<Elixir>
+
+				<Modifier>Dan_YaoDan2</Modifier>
+
+			</Elixir>
+<Food> <!-- 食用效果 -->
+			<EatDirectable>1</EatDirectable> <!-- 是否可以直接食用 -->
+			<Nutrition>0</Nutrition>
+			<PracticeNutrition>150</PracticeNutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+		</Food>	
+		</Item>
+		<Ling>
+			<AddionLing>0</AddionLing>
+			<AddionRadius>1</AddionRadius>
+			<AddionFailing>0</AddionFailing>
+			<AddionFailRadius>0</AddionFailRadius>
+			
+			<Attenuation>0.05</Attenuation>
+			<Absorption>0.6</Absorption>
+			<Accommodate>40</Accommodate>
+		</Ling>
+	</ThingDef>	
+</List></ThingDefs>

@@ -1,0 +1,69 @@
+﻿<ThingDefs><List>
+
+
+                <ThingDef Type="Building" Name="SoulColor_WaterTank" Parent="FurnitureBase">
+	<ThingName>储气罐</ThingName>	
+	<ClassName>LingQiGuan_Building</ClassName>
+	<Desc>水缸的进化版，有水缸的功能还可以存储灵气。</Desc>
+	<Tags>
+		<Tag Name="Water" Level="3"/>
+	</Tags>
+	<TexPath>res/Sprs/buildingnew/building_WaterTank1a</TexPath>
+	<TexScale>0.8</TexScale>
+	<SelectAble>1</SelectAble>	
+	<CastShadow>1</CastShadow>
+	<BlockLight>0</BlockLight>
+	<ShadowSize>
+		<x>0.7</x>
+		<y>0.8</y>
+	</ShadowSize>
+	
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<ColliderKind>ThrowOver</ColliderKind>
+	<Collider>
+		<Data>
+		[0,4,0],
+		[4,3,4],
+		[0,4,0],
+		</Data>
+		<Offset>
+			<y>0.3</y>
+		</Offset>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="-0.4" Ang="-165"/>
+			<li Index="1"  X="0.180" Y="0" Ang="-250"/>
+			<li Index="2"  X="-0.185" Y="0" Ang="-80"/>
+			<li Index="3"  X="0" Y="0.44" Ang="10"/>
+		</WorkOffset>
+	</Collider>
+
+	<Building>
+		<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+		<HelperClass>BuildingHelperWaterTank</HelperClass>
+		<BePackage>1</BePackage>
+		<BagDrop>0</BagDrop>
+		<MaxWorker>4</MaxWorker>
+		<BeMade>
+			<WorkToMake>50</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "WoodBlock"/>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+			</StuffCategories>
+			<CostStuffCount>4</CostStuffCount>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.62</x>
+			<y>3.94</y>
+			<z>2</z>
+		</SnowRenderData>
+	</Building>
+	</ThingDef>	
+	
+	</List></ThingDefs>

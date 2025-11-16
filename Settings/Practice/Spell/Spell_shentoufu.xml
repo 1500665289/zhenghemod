@@ -1,0 +1,27 @@
+﻿<Spells><List>
+
+	<Spell Name="Spell_sf_shentou02">
+		<DisplayName>万能符</DisplayName>
+		<Desc>一符在手，全局无忧</Desc>
+		<Template>Spell/main_texture_ningxin01</Template>
+		<Effects>
+			<li Name="NpcFight_SneakValue" AddV="100"/><!--潜行值-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="1"/><!--学习速度-->
+                                                <li Name="GlobalEfficiency" AddP="2"/><!--全局工作速度-->
+			<li Name="MadeQualityAddValue" AddV="0.5"/><!--物品品质-->
+			<li Name="MindStateBaseValue" AddV="20"/><!--心境-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1"/><!--修炼速度-->
+			<li Name="WorldMapFlySpeedAddP" AddV="1"/><!--历练飞行速度-->
+			<li Name="BaseEmotionAddV" AddV="10"/><!--心情-->
+			<li Name="PlantHarvestYieldEfficiency" AddP="0.5"/><!--收获产量-->
+			<li Name="ButcherYieldEfficiency" AddP="0.5"/><!--屠宰产量-->
+			<li Name="MoveSpeed" AddP="1"/><!--移动速度-->
+                                                <li Name="MiningYieldEfficiency" AddP="0.5"/><!--挖掘时的产量-->
+			<li Name="DanMake_YieldAddP" AddV="0.5"/><!--炼制丹药的产量-->
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="0.5"/><!--炼制法宝的品阶-->
+			<li Name="NpcFight_BaseHitChance" AddV="1"/><!--基础命中-->
+			<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--基础闪避-->
+		</Effects>
+	</Spell>
+	
+</List>	</Spells>

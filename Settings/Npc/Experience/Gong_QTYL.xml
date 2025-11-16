@@ -1,0 +1,12 @@
+﻿<Experiences><List>
+	
+	<Experience Name="Experiences_QTYL">
+		<DisplayName>炁体源流</DisplayName>
+		<Desc>你进入太一门之前曾经遇到一个受了重伤的神秘人，他在临死之前把他交给了你。\n\n\n[size=10]解锁功法：[color=#D06508]《炁体源流》[/color]\n此功法修成之后神鬼胆寒。[/size]</Desc>
+		<Point>-100</Point>
+		<Gongs>
+			<li>Gong_QTYL</li>
+		</Gongs>
+	</Experience>
+	
+</List></Experiences>

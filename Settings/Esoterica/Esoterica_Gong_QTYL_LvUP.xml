@@ -1,0 +1,148 @@
+﻿<Esotericas><List>
+	
+	
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_1">
+		<DisplayName>神行术</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_4.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>6</Difficulty>
+		<Desc>缩地成寸，以为神行。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]大幅提高历练飞行速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_1</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_2">
+		<DisplayName>休门</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>2</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_2</Modifier>	
+	</Esoterica>
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_3">
+		<DisplayName>生门</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度\n提高法术强度\n提高灵气回复速度\n提高灵气值3000\n提高五维1点[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_3</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_4">
+		<DisplayName>杜门</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>0</StarLevel>
+		<Difficulty>3</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度\n提高法术强度\n提高灵气回复速度\n提高灵气值3000\n提高五维1点[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_4</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_5">
+		<DisplayName>死门</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>7</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_5</Modifier>	
+	</Esoterica>
+	
+	
+	
+	<Esoterica Name="QTYL_LvUpEsoterica_6">
+		<DisplayName>惊门</DisplayName>
+		<Hide>2</Hide>
+		<Icon>Spr\Ui\QTYL_10.png</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>8</Difficulty>
+		<Desc>八门遁甲之一。</Desc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]增加寿命\n提高修炼速度\n提高法术强度\n提高灵气回复速度\n提高灵气值10000\n提高五维3点[/color][/size]</EffectDesc>
+		<Modifier>QTYL_LvUpEsoterica_6</Modifier>	
+	</Esoterica>
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></Esotericas>

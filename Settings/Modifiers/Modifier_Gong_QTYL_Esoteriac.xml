@@ -1,0 +1,234 @@
+<ModifierDefs><List>
+	      	
+	<Modifier Name="QTYL_Esoterica_a0" Type="Normal">
+		<DisplayName>明心真经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.5"/>        <!--灵气回复速度-->
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="QTYL_Esoterica_a2" Type="Normal">
+		<DisplayName>轻身决</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MoveSpeed" AddP="5"/>             <!-- 提高移动速度 -->
+			<li Name="WorldMapFlySpeedAddP" AddV="2"/>  <!-- 提高历练速度 -->
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="QTYL_Esoterica_a5" Type="Normal">
+		<DisplayName>大荒诀</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>  
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.5"/>        <!--灵气回复速度-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.3"/>		<!-- 提高修炼速度 -->
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="QTYL_Esoterica_a8" Type="Normal">
+		<DisplayName>开门</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="10"/>             
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.1"/>
+		</Properties>
+	</Modifier>
+	
+	
+
+	
+	
+	
+	
+	<Modifier Name="QTYL_Esoterica_b0" Type="Normal">
+		<DisplayName>如阳真经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="1.5"/>
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.7"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="QTYL_Esoterica_b4" Type="Normal">
+		<DisplayName>淬体决</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0.4,0.4,0.4,0.4,0.4</BaseFive>    
+		<Properties>
+			<li Name="MaxAge" AddV="30"/> 
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.6"/>		<!-- 提高修炼速度 -->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.1"/>  
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="QTYL_Esoterica_b6" Type="Normal">
+		<DisplayName>清灵决</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>  
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.5"/> 
+			<li Name="NpcLingMaxValue" AddP="2"/> <!-- 灵气最大值 -->
+		</Properties>
+	</Modifier>
+	
+	
+	
+	
+	<Modifier Name="QTYL_Esoterica_b8" Type="Normal">
+		<DisplayName>伤门</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="40"/>             
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.4"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="QTYL_Esoterica_b10" Type="Normal">
+		<DisplayName>御器术</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoPowerAddP" AddP="2.5"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="5"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="5"/>
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.25"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.25"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="QTYL_Esoterica_c4" Type="Normal">
+		<DisplayName>五脏锻元功</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0.6,0.6,0.6,0.6,0.6</BaseFive>  
+		<Properties>
+			<li Name="MaxAge" AddV="60"/>			           <!-- 提高寿命 -->		
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.5"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.15"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	<Modifier Name="QTYL_Esoterica_c6" Type="Normal">
+		<DisplayName>造化天经</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display> 
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.8"/> 
+			<li Name="NpcLingMaxValue" AddP="3"/> <!-- 灵气最大值 -->
+		</Properties>
+	</Modifier>
+	
+	
+
+	
+	<Modifier Name="QTYL_Esoterica_c8" Type="Normal">
+		<DisplayName>景门</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="MaxAge" AddV="60"/>             
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.6"/>
+		</Properties>
+	</Modifier>
+
+	<Modifier Name="QTYL_Esoterica_d4" Type="Normal">
+		<DisplayName>大荒不灭体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>1,1,1,1,1</BaseFive>
+		<Properties>
+			<li Name="MaxAge" AddV="80"/>			           <!-- 提高寿命 -->		
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="0.8"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.3"/>
+		</Properties>
+	</Modifier>
+	
+	
+	
+	<Modifier Name="QTYL_Esoterica_d6" Type="Normal">
+		<DisplayName>大荒圣灵体</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddV="0.5"/> 
+			<li Name="NpcLingMaxValue" AddP="2"/> <!-- 灵气最大值 -->
+		</Properties>
+	</Modifier>
+	
+	
+	
+	<!--  -->
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</List></ModifierDefs>
